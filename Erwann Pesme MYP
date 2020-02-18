@@ -1,0 +1,596 @@
+body{
+	background:#f2f2f2;
+}
+.main-container{
+	width:80%;
+	height:auto;
+	background:white;
+	margin:0 auto;
+	padding:0px;
+}
+.header{
+	height:70px;
+	/*box-shadow:0px  2px 4px 1px #2c5e9a;;
+*/
+-webkit-box-shadow: 0 8px 6px -6px  #2c5e9a;;
+	   -moz-box-shadow: 0 8px 6px -6px  #2c5e9a;;
+	        box-shadow: 0 8px 6px -6px  #2c5e9a;;
+	   
+}
+
+.menu-side{
+	width:100%;
+	float:right;
+	padding-top:10px;
+	text-align:center;
+}
+.menu-side ul li{
+	list-style: none;
+	display:inline;
+	padding:10px 20px;
+
+}
+.menu-side ul li a{
+	padding:0px 0px;
+	color:white;
+	text-decoration:none;
+	background:#2c5e9a;
+	padding:12px 40px;
+	border-radius:4px;
+	font-size:18px;
+	/*clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);*/
+}
+.menu-side ul li a:hover{
+	background:#f24941;
+}
+.active{
+	background:#f24941!important;
+}
+.hero{
+	width:100%;
+	height:550px;
+	background:url(../images/h3.png);
+	background-size:cover;
+	background-position:left;
+}
+.hero h1{
+	color:white;
+	margin:0px;
+	padding-top:180px;
+	text-align:center;
+	text-shadow:2px 2px #2c5e9a;
+	font-size:50px;
+	text-transform:capitalize;
+
+}
+
+.tocon{
+	display:block;
+	margin:0 auto!important;
+	width:100px;
+	text-decoration: none;
+	border-radius:25px;
+	height:30px;
+	line-height:30px;
+	margin:0 auto!important;
+	text-align:center;
+	margin-top:15px!important;
+	padding:12px 30px;
+	font-size:20px;
+	color:white;
+	background:#2c5e9a;
+}
+.first-hero-home-page{
+	text-align:center!important;
+	padding:30px 0px;
+}
+.first-hero-home-page h1{
+	color:#2c5e9a;
+	font-size:40px;
+}
+.firstp{
+	font-size:18px;
+	padding:10px 100px;
+}
+.threeheros{
+	width:100%;
+	height:400px;
+	display:block;
+	margin:0 auto;
+	text-align: center;
+	
+}
+.Batman-section{
+	width:340px;
+	height:250px;
+	/*border:1px solid black;*/
+	float:left;
+	margin-left:12px;
+	text-align: center;
+
+}
+.thor-section{
+	width:340px;
+	border:1px solid black;
+
+	height:250px;
+	
+	float:left;
+	margin-left:10px;
+}
+.threeheros legend{
+	
+	height:50px;
+	width:150px;
+	line-height:50px;
+	font-size:19px;
+	color:white;
+	background:#2c5e9a;
+	border:2px solid #f24941;;
+
+}
+.threeheros fieldset{
+	border:2px solid #f24941;;
+
+	font-size:17px;
+	color:gray;
+	padding-top:20px;
+}
+.linkforhero{
+	padding:10px 20px;
+	width:80px;
+	display: block;
+	margin:0 auto;
+	font-size:20px;
+	text-decoration: none;
+	background:#2c5e9a;;
+	text-align:center;
+	margin-top:20px;
+	border-radius:25px;
+	color:white;
+}
+.linkforhero:hover{
+	background: #f24941;
+}
+.footer{
+	background:gray;
+	color:white;
+	padding:10px 0px;
+	text-align: center;
+}
+
+/*batman here page start*/
+.batman-hero{
+	width:100%;
+	height:300px;
+	background:url(../images/batmanheroimage.jpg) no-repeat;
+	background-size:cover;
+}
+.batman-hero h1{
+	color:white;
+	font-size:50px;
+	margin:0px;
+	text-align:left;
+	padding-top:80px;
+	text-align:center;
+}
+.introduction{
+	text-align: center;
+	padding:20px 0px;
+
+}
+.introduction h1{
+	color:#2c5e9a;
+	font-size:40px;
+}
+
+.intro-text{
+	width:100%;
+	height:450px;
+	padding:10px;
+	
+}
+.left-side{
+	width:45%;
+	float:left;
+}
+.left-side img{
+	width:90%;
+}
+.right-side{
+	width:50%;
+	float:left;
+}
+.right-side p{
+	font-size:36px;
+}
+.movi-info{
+	text-align:center;
+	padding:20px 0px;
+	background:#f9f9f9;
+}
+.movi-info h1{
+	color:#2c5e9a;
+	text-align: center;
+}
+.ifnoo{
+	background:blue!important;
+}
+.antother{
+	background:#f9f9f9;
+}
+.Batman-section b{
+	text-align: center;
+	font-size:20px;
+	width:100%;
+	padding:10px 0px;
+	display: inline-block;
+}
+.ggo img{
+	width:100%;
+	height:200px;
+}
+.watch{
+	width:100px;
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	background:#2c5e9a;
+	display: block;
+	color:white;
+	margin:0 auto;
+	margin-top:5px;
+	text-decoration: none;
+	border-radius:25px;
+}
+.thor-hero{
+	width:100%;
+	height:300px;
+	background:url(../images/thorheroimage.jpg) no-repeat;
+	background-size:cover;
+}
+.thor-hero h1{
+	color:white;
+	font-size:50px;
+	margin:0px;
+	text-align:left;
+	padding-top:80px;
+	text-align:center;
+}
+
+.Wonder-hero{
+	width:100%;
+	height:300px;
+	background:url(../images/wonderheroimage.jpg) no-repeat;
+	background-size:cover;
+}
+.Wonder-hero h1{
+	color:white;
+	font-size:50px;
+	margin:0px;
+	text-align:left;
+	padding-top:80px;
+	text-align:center;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<div class="main-container">
+	<div class="header">
+		<!-- <div class="logo-side">
+			<img src="images/logo.png">
+		</div> -->
+		<!-- logo-side end -->
+		<div class="menu-side">
+			<ul>
+				<li>
+					<a href="index.html" class="active">Home</a>
+				</li>
+				<li>
+					<a href="Batman.html">Batman</a>
+				</li>
+				<li>
+					<a href="Thor.html">Thor</a>
+				</li>
+				<li>
+					<a href="Wonder.html">Wonder Woman</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->
+	<div class="hero">
+		<div class="transparency">
+			<h1>The ancient inspirations behind the creation of today's comicbook supherheroes</h1>
+			<a href="#" class="tocon">Contact us</a>
+		</div>
+	</div>
+	<!-- hero section on home page end -->
+	<div class="first-hero-home-page">
+		<img src="images/pattern.png">
+		<p class="firstp">I wish to show the world how wonderful, epic, and jaw-dropping the tales of ancient mythology were. I wish to inform the youth, but also the people of today, of how their favorite characters from a book, movie or comic book could be based on and even more incredible god or hero. I think the best three examples of writers taking inspiration from old stories or even real life people are below.
+</p>
+	</div>
+	<!-- first-hero-home-page end -->
+
+	<div class="threeheros">
+		<div class="Batman-section">
+			<fieldset>
+				<legend>Batman</legend>
+
+				The Dark Knight
+				<a href="Batman.html" class="linkforhero">More..</a>
+			</fieldset>
+		</div>
+		<!-- batmean edn -->
+		<!-- <div class="thor-section">
+			
+		</div> -->
+		<div class="Batman-section">
+			<fieldset>
+				<legend>Thor</legend>
+
+				The God of Thunder
+				<a href="Thor.html" class="linkforhero">More..</a>
+			</fieldset>
+		</div>
+		<!-- Thor edn -->
+		<div class="Batman-section">
+			<fieldset>
+				<legend>Wonder Woman</legend>
+
+				Princess of Themyscira
+				<a href="Wonder.html" class="linkforhero">More..</a>
+			</fieldset>
+		</div>
+		<!-- batmean edn -->
+		
+	</div>
+	<!-- three heros section start -->
+	<div class="footer">
+		&copy - with Erwann Pesme - 2020
+	</div>
+</div>
+<!-- main container end -->
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<div class="main-container">
+	<div class="header">
+	
+		<div class="menu-side">
+			<ul>
+				<li>
+					<a href="index.html" >Home</a>
+				</li>
+				<li>
+					<a href="Batman.html" class="active">Batman</a>
+				</li>
+				<li>
+					<a href="Thor.html">Thor</a>
+				</li>
+				<li>
+					<a href="Wonder.html">Wonder Woman</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->
+	<div class="batman-hero">
+		<h1>The Batman</h1>
+			<a href="#" class="tocon">Contact us</a>
+
+	</div>
+	<!-- batman hero sectionend -->
+	<div class="introduction">
+		<h1>Introduction to Batman</h1>
+		<img src="images/pattern.png">
+	</div>
+	<!-- introduction end -->
+	<div class="intro-text">
+		<div class="left-side">
+			<img src="images/batman.jpg">
+		</div>
+		<!-- left=side end -->
+		<div class="right-side">
+			<p>The Dark Knight of Gotham, Batman, was first created by writers, Bob Kane and Bill Finger. The greatest detective in the world first made his appearance in Detective Comics #27 in 1939. Batman was inspired by Sherlock Holmes, Zorro, and a Leonardo da Vinci sketch. He would continue to make further appearances in other comicbooks with other characters, perhaps with different costumes but his origins stay the same.
+		</p>
+		</div>
+		<!-- right side end -->
+	</div>
+	<!-- intro text end -->
+	<div class="movi-info">
+		<h1>Gods/ Heroes that inspired Batman</h1>
+		<img src="images/pattern.png">
+	</div>
+	<!-- movi-info end -->
+	<div class="threeheros antother">
+		<div class="Batman-section ggo">
+			<img src="images/sherlock.jpg">
+			<b>Name:</b> Sherlock Holmes
+		</div>
+		<div class="Batman-section ggo">
+			<img src="images/zorro.jpg">
+			<b>Name:</b> Zorro
+		</div>
+		<div class="Batman-section ggo">
+			<img src="images/batwing.jpg">
+			<b>Name:</b> Leonardo Da Vinci
+		</div>
+		
+	</div>
+	<!-- three heros section start -->
+
+
+	
+
+	<div class="footer">
+		&copy - with Erwann Pesme -  2020
+	</div>
+</div>
+<!-- main container end -->
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<div class="main-container">
+	<div class="header">
+		
+		<div class="menu-side">
+			<ul>
+				<li>
+					<a href="index.html" >Home</a>
+				</li>
+				<li>
+					<a href="Batman.html" >Batman</a>
+				</li>
+				<li>
+					<a href="Thor.html" class="active">Thor</a>
+				</li>
+				<li>
+					<a href="Wonder.html">Wonder Woman</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->
+	<div class="thor-hero">
+		<h1>The Thor</h1>
+			<a href="#" class="tocon">Contact us</a>
+
+	</div>
+	<!-- batman hero sectionend -->
+	<div class="introduction">
+		<h1>Introduction to Thor</h1>
+		<img src="images/pattern.png">
+	</div>
+	<!-- introduction end -->
+	<div class="intro-text">
+		<div class="left-side">
+			<img src="images/thorcomic2.jpg">
+		</div>
+		<!-- left=side end -->
+		<div class="right-side">
+			<p>Thor was a collaborated creation of Stan Lee, Larry Lieber and Jack Kirby. He was originally based off of the mythological Norse god Thor, but they can be drasticaly different in powers, and character, which is a sign that the comicbook Thor is not just a carbon copy. Thor made his debut in comic books in 1962, in Journey into Mystery #83.
+		</p>
+		</div>
+		<!-- right side end -->
+	</div>
+	<!-- intro text end -->
+	<div class="movi-info">
+		<h1>Gods/ Heroes that inspired Thor</h1>
+		<img src="images/pattern.png">
+	</div>
+	<!-- movi-info end -->
+	<div class="threeheros antother">
+		<div class="Batman-section ggo">
+			<img src="images/thorhammer.jpg">
+			<b>Name:</b> Thor from ancient norse mythology
+			<a href="" class="watch">Watch it</a>
+		</div>
+	</div>
+	<!-- three heros section start -->
+
+
+	
+
+	<div class="footer">
+		&copy - with Erwann Pesme - 2020
+	</div>
+</div>
+<!-- main container end -->
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<div class="main-container">
+	<div class="header">
+	
+		<div class="menu-side">
+			<ul>
+				<li>
+					<a href="index.html" >Home</a>
+				</li>
+				<li>
+					<a href="Batman.html" >Batman</a>
+				</li>
+				<li>
+					<a href="Thor.html" >Thor</a>
+				</li>
+				<li>
+					<a href="Wonder.html" class="active">Wonder Woman</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->
+	<div class="Wonder-hero">
+		<h1>The Wonder Women</h1>
+			<a href="#" class="tocon">Contact us</a>
+
+	</div>
+	<!-- batman hero sectionend -->
+	<div class="introduction">
+		<h1>Introduction to Wonder Women</h1>
+		<img src="images/pattern.png">
+	</div>
+	<!-- introduction end -->
+	<div class="intro-text">
+		<div class="left-side">
+			<img src="images/wonderwoman.jpg">
+		</div>
+		<!-- left=side end -->
+		<div class="right-side">
+			<p>Wonder Woman, Princess Diana of Themyscira, first made her appearance in All Star Comics #8, in 1941. She was created by William Moulton Marston and H. G. Peter. Wonder Woman was based off of Olive Byrne, the life partner of William Moultoin Marston. Wonder Woman is an example of a hero being based off an average person, not of divine or mythological origins.
+		</p>
+		</div>
+		<!-- right side end -->
+	</div>
+	<!-- intro text end -->
+	<div class="movi-info">
+		<h1>Gods/ Heroes that inspired Wonder women, or in this case life partner</h1>
+		<img src="images/pattern.png">
+	</div>
+	<!-- movi-info end -->
+	<div class="threeheros antother">
+		<div class="Batman-section ggo">
+			<img src="images/olive.jpg">
+			<b>Name:</b> Olive Byrn
+		</div>		
+	</div>
+	<!-- three heros section start -->
+
+
+	
+
+	<div class="footer">
+		&copy - with Erwann Pesme - 2020
+	</div>
+</div>
+<!-- main container end -->
+</body>
+</html>
